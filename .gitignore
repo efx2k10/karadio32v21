@@ -47,5 +47,7 @@ Temporary Items
 .apdisk
 
 # do not save build directory
-/build
+/build/*
+!/build/KaRadio32.bin
+!/build/partitions.bin
 sdkconfig.old
